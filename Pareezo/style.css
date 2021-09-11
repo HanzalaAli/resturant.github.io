@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header*/
+#header.header-nav {
+    box-shadow: 0 0 2px 1px rgb(0 0 0 / 15%);
+    width: 100%;
+}
+.white-bg {
+    background-color: #fff;
+}
+#header .header-content {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+#header .header-content .header-content-left .button.location {
+    margin-right: .5rem;
+}
+.button span, .button span span {
+    display: flex;
+    justify-content: center;
+}
+.button span i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button.primary-button {
+    background-color: #00756c;
+    color: #fff;
+}
+.button {
+    box-sizing: border-box;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 20px 50px 20px 50px !important;
+    line-height: 1.5;
+    font-size: 1rem !important;
+    font-weight: bolder !important;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    background-color: #00756c !important;
+}
+
+.logo{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.logo span{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.line{
+    width: 60%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #000;
+    /* font-size: 1.25rem; */
+}
+
+.navbar-seperator{
+    /* margin-top: 1.5%; */
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 10px 15px 5px 15px;
+}
+
+/* header end  */
+
+/* main-page  */
+
+.hero{
+    background-image: url(images/background-img.jpg);
+    height: 27vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 8%;
+}
+.column{
+  margin-left: 15%;
+}
+
+.column h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.background-btn{
+    margin-top: -2%;
+}
+.background-btn-2{
+    background-color: #fff !important;
+    border: 2px solid #00756c !important;
+    color: #000 !important;
+    
+}
+#book-restaurant{
+    padding: 18px !important;
+    border: 2px solid #00756c;
+}
+
+.input-group{
+    width: 60% !important;
+   
+}
+.form-control{
+    padding: 10px !important;
+    border: 2px solid #00756c !important;
+    outline: none;
+}
+/* main-page End  */
+/* Card 1  */
+.heading{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.image img{
+    width: 110%;
+    margin-bottom: 5%;
+}
+
+.view-more{
+   margin-left: 30%;
+   margin-bottom: 5%;
+   padding: 10px 50px 10px 50px !important;
+    border-radius: 0 !important;
+    background-color: #00756c !important;
+    border: #00756c !important;
+
+}
+
+.line-2{
+    border-left: 2px solid #000;
+    height: 600px;
+    margin-top: 15%;
+    margin-left: 55%;
+}
+/* card 1 End  */
+
+
+/* Signup  */
+
+#sign-up{
+    background-color: #9dd2c2;
+    width: 100%;
+    height: 30vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.sign-up-img img{
+    margin-top: -5%;
+    margin-left: -30%;
+    width:120%;
+    height: 35vh;
+}
+.sign-up-btn{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px 50px 10px 50px !important;
+     border-radius: 0 !important;
+     background-color: #00756c !important;
+     border: #00756c !important;
+}
+/* Signup  Ends*/
+
+/* contact us  */
+.contact{
+    background-color: #9dd2c2;
+    height: 100vh;
+    width: 100%;
+    font-family: neue-kabel,sans-serif;
+   margin-top: 0;
+}
+.contact-heading{
+    margin-top: 17%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#contact-us i{
+    color: #00756c;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.card-text{
+    font-weight: 500;
+}
+.card-1{
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+    padding: 10px;
+    transition: 0.5s;
+}
+.card-1:hover{
+    transform: translateY(-20px);
+}
+.form-heading{
+    font-weight: bold;
+}
+.submit-btn{
+    background-color: #00756c !important;
+    padding: 10px 35px 10px 35px !important;
+}
+.submit-btn:hover{
+    background-color: #fff !important;
+    border: 1px solid #00756c !important;
+    color: #00756c !important;
+}
+/* contact us  End*/
+
+/* Footer  */
+body {
+    overflow-x: hidden;
+    color: #fff
+}
+
+p {
+    font-size: 14px
+}
+
+.container-fluid {
+    background-color: #000;
+    color: #fff;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100 !important;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.top-part {
+    background-color: #000;
+    color: #fff;
+}
+
+.center-content {
+    margin-top: 120px;
+    margin-bottom: 120px
+}
+
+.btn-pink {
+    border-radius: 0;
+    background-color: #FF4081;
+    color: #fff !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.btn-pink:hover {
+    background-color: #F50057
+}
+
+.line {
+    border-top: 1px solid #7B1FA2;
+    width: 90% !important
+}
+
+.fa-mobile {
+    font-size: 20px
+}
+
+#contact {
+    font-size: 15px
+}
+
+.grey-text {
+    color: lightgrey
+}
+/* Footer  End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:987px) {
+    *{
+        overflow-x: hidden;
+    }
+    .resturant-text{
+        display: none !important;
+    }
+    .btn-2{
+        padding: 15px 50px 15px 50px !important;
+    }
+    .header-content{
+        margin-left: -15%;
+    }
+    .line{
+        display: none;
+    }
+    .logo img{
+        width: 70% !important;
+        margin-top: 5%;
+    }
+    .navbar-collapse
+    {
+        font-weight: 700;
+    }
+    .navbar-seperator{
+        display: none;
+    }
+}
